@@ -2,233 +2,233 @@
 
 #### 1.1vue的特性
 
->  ![image-20211022104610102](D:\app\Typora\TyporaProject\images\image-20211022104610102.png) 
+>  ![image-20211022104610102](D:\TyporaProject\images\image-20211022104610102.png) 
 
 #### 2.1数据驱动视图
 
-> ![image-20211022105139262](D:\app\Typora\TyporaProject\images\image-20211022105139262.png)
+> ![image-20211022105139262](D:\TyporaProject\images\image-20211022105139262.png)
 >
-> ![image-20211022105410364](D:\app\Typora\TyporaProject\images\image-20211022105410364.png)
+> ![image-20211022105410364](D:\TyporaProject\images\image-20211022105410364.png)
 
 #### 2.2双向数据绑定
 
-> ![image-20211022105428797](D:\app\Typora\TyporaProject\images\image-20211022105428797.png)
+> ![image-20211022105428797](D:\TyporaProject\images\image-20211022105428797.png)
 >
-> ![image-20211022111656322](D:\app\Typora\TyporaProject\images\image-20211022111656322.png)
+> ![image-20211022111656322](D:\TyporaProject\images\image-20211022111656322.png)
 
 #### 2.3 MVVM
 
-![image-20211022110229621](D:\app\Typora\TyporaProject\images\image-20211022110229621.png)
+![image-20211022110229621](D:\TyporaProject\images\image-20211022110229621.png)
 
 #### 2.4 MVVM的工作原理
 
-![image-20211022111450628](D:\app\Typora\TyporaProject\images\image-20211022111450628.png)
+![image-20211022111450628](D:\TyporaProject\images\image-20211022111450628.png)
 
 ## vue基础语法
 
 > #### 1. 指令的概念
 >
-> ![image-20211022113928661](D:\app\Typora\TyporaProject\images\image-20211022113928661.png)
+> ![image-20211022113928661](D:\TyporaProject\images\image-20211022113928661.png)
 >
 > > ##### 1.1 内容渲染指令
 > >
-> > > ![image-20211022114137939](D:\app\Typora\TyporaProject\images\image-20211022114137939.png)
+> > > ![image-20211022114137939](D:\TyporaProject\images\image-20211022114137939.png)
 > > >
 > > > **v-text **
 > > >
-> > > ![image-20211022114352587](D:\app\Typora\TyporaProject\images\image-20211022114352587.png)
+> > > ![image-20211022114352587](D:\TyporaProject\images\image-20211022114352587.png)
 > > >
 > > > **{{}}语法**
 > > >
-> > > ![image-20211022134405116](D:\app\Typora\TyporaProject\images\image-20211022134405116.png)
+> > > ![image-20211022134405116](D:\TyporaProject\images\image-20211022134405116.png)
 > > >
 > > > **v-html**
 > > >
-> > > ![image-20211022134755220](D:\app\Typora\TyporaProject\images\image-20211022134755220.png)
+> > > ![image-20211022134755220](D:\TyporaProject\images\image-20211022134755220.png)
 > > >
 > > > **总结：**
 > > >
-> > > ![image-20211022134852475](D:\app\Typora\TyporaProject\images\image-20211022134852475.png)
+> > > ![image-20211022134852475](D:\TyporaProject\images\image-20211022134852475.png)
 > >
 > > ##### 1.2 属性绑定指令
 > >
-> > > ![image-20211025112202769](D:\app\Typora\TyporaProject\images\image-20211025112202769.png)
+> > > ![image-20211025112202769](D:\TyporaProject\images\image-20211025112202769.png)
 > >
 > > ##### 1.3 在指令中使用JavaScript语法
 > >
-> > > ![image-20211025150516867](D:\app\Typora\TyporaProject\images\image-20211025150516867.png)
+> > > ![image-20211025150516867](D:\TyporaProject\images\image-20211025150516867.png)
 >
 > #### 2 事件绑定
 >
 > > ##### 2.1 v-on
 >
-> > > ![image-20211025150959142](D:\app\Typora\TyporaProject\images\image-20211025150959142.png)
+> > > ![image-20211025150959142](D:\TyporaProject\images\image-20211025150959142.png)
 > >
 > > ##### 2.2 $event原生事件对象
 > >
-> > > ![image-20211025160206851](D:\app\Typora\TyporaProject\images\image-20211025160206851.png)
+> > > ![image-20211025160206851](D:\TyporaProject\images\image-20211025160206851.png)
 > >
 > > ##### 2.3 事件修饰符
 > >
-> > > ![image-20211025160722707](D:\app\Typora\TyporaProject\images\image-20211025160722707.png)
+> > > ![image-20211025160722707](D:\TyporaProject\images\image-20211025160722707.png)
 > >
 > > ##### 2.4 按键修饰符
 > >
-> > > ![image-20211025163803388](D:\app\Typora\TyporaProject\images\image-20211025163803388.png)
+> > > ![image-20211025163803388](D:\TyporaProject\images\image-20211025163803388.png)
 >
 > #### 3. 双向绑定
 >
 > > ##### 3.1 v-model
 > >
-> > > ![image-20211025171145191](D:\app\Typora\TyporaProject\images\image-20211025171145191.png)
+> > > ![image-20211025171145191](D:\TyporaProject\images\image-20211025171145191.png)
 > >
 > > ##### 3.2 v-model 指令的修饰符
 > >
-> > > ![image-20211025172335018](D:\app\Typora\TyporaProject\images\image-20211025172335018.png)
+> > > ![image-20211025172335018](D:\TyporaProject\images\image-20211025172335018.png)
 >
 > #### 4.条件渲染指令
 >
-> ![image-20211025172813953](D:\app\Typora\TyporaProject\images\image-20211025172813953.png)
+> ![image-20211025172813953](D:\TyporaProject\images\image-20211025172813953.png)
 >
 > > ##### 4.1 v-if和v-show
 > >
-> > > ![image-20211025173920600](D:\app\Typora\TyporaProject\images\image-20211025173920600.png)
+> > > ![image-20211025173920600](D:\TyporaProject\images\image-20211025173920600.png)
 > >
 > > ##### 4.2 v-else
 > >
-> > > ![image-20211025174304080](D:\app\Typora\TyporaProject\images\image-20211025174304080.png)
+> > > ![image-20211025174304080](D:\TyporaProject\images\image-20211025174304080.png)
 >
 > #### 5.列表渲染指令
 >
 > > ##### 5.1 v-for
 > >
-> > > ![image-20211025175107281](D:\app\Typora\TyporaProject\images\image-20211025175107281.png)
+> > > ![image-20211025175107281](D:\TyporaProject\images\image-20211025175107281.png)
 > >
 > > ##### 5.2 key
 >
-> > > ![image-20211026104136362](D:\app\Typora\TyporaProject\images\image-20211026104136362.png)
+> > > ![image-20211026104136362](D:\TyporaProject\images\image-20211026104136362.png)
 >
 > #### 6.过滤器
 >
 > > ##### 6.1 过滤器
 > >
-> > > ![image-20211026153351098](D:\app\Typora\TyporaProject\images\image-20211026153351098.png)
+> > > ![image-20211026153351098](D:\TyporaProject\images\image-20211026153351098.png)
 > >
 > > 注意：过滤器一定要有返回值！
 > >
 > > ##### 6.2 全局过滤器
 > >
-> > > ![image-20211026155838549](D:\app\Typora\TyporaProject\images\image-20211026155838549.png)
+> > > ![image-20211026155838549](D:\TyporaProject\images\image-20211026155838549.png)
 > >
 > > ##### 6.3 过滤器传参
 > >
-> > > ![image-20211026164217028](D:\app\Typora\TyporaProject\images\image-20211026164217028.png)
+> > > ![image-20211026164217028](D:\TyporaProject\images\image-20211026164217028.png)
 
 > #### 7. 侦听器
 >
 > > #####  7.1 侦听器
 > >
-> > > ![image-20211026164818435](D:\app\Typora\TyporaProject\images\image-20211026164818435.png)
+> > > ![image-20211026164818435](D:\TyporaProject\images\image-20211026164818435.png)
 > > >
 > > > **实例**：
 > > >
-> > > ​                                                            ![image-20211026174711680](D:\app\Typora\TyporaProject\images\image-20211026174711680.png)   
+> > > ​                                                            ![image-20211026174711680](D:\TyporaProject\images\image-20211026174711680.png)   
 > >
 > > ##### 7.2 对象格式侦听器(immediate 选项)
 > >
-> > > ![image-20211026174417658](D:\app\Typora\TyporaProject\images\image-20211026174417658.png)
+> > > ![image-20211026174417658](D:\TyporaProject\images\image-20211026174417658.png)
 > > >
-> > > ![image-20211026174500977](D:\app\Typora\TyporaProject\images\image-20211026174500977.png)
+> > > ![image-20211026174500977](D:\TyporaProject\images\image-20211026174500977.png)
 > >
 > > ##### 7.3 deep选项
 > >
-> > > ![image-20211026175657106](D:\app\Typora\TyporaProject\images\image-20211026175657106.png)
+> > > ![image-20211026175657106](D:\TyporaProject\images\image-20211026175657106.png)
 > >
 > > ##### 7.4 总结
 > >
-> > ![image-20211026194532950](D:\app\Typora\TyporaProject\images\image-20211026194532950.png)
+> > ![image-20211026194532950](D:\TyporaProject\images\image-20211026194532950.png)
 
 > #### 8.计算属性
 >
 > > ##### 8.1 计算属性
 > >
-> > > ![image-20211026180117872](D:\app\Typora\TyporaProject\images\image-20211026180117872.png)
+> > > ![image-20211026180117872](D:\TyporaProject\images\image-20211026180117872.png)
 > >
 > > ##### 8.2 总结
 > >
-> > > ![image-20211026194649348](D:\app\Typora\TyporaProject\images\image-20211026194649348.png)
+> > > ![image-20211026194649348](D:\TyporaProject\images\image-20211026194649348.png)
 
 > #### 9. axios
 >
 > > ##### 9.1   基础
 > >
-> > > ![image-20211026195240318](D:\app\Typora\TyporaProject\images\image-20211026195240318.png)
+> > > ![image-20211026195240318](D:\TyporaProject\images\image-20211026195240318.png)
 > > >
-> > > ![image-20211027095941312](D:\app\Typora\TyporaProject\images\image-20211027095941312.png)
+> > > ![image-20211027095941312](D:\TyporaProject\images\image-20211027095941312.png)
 > > >
-> > > ![image-20211027095702441](D:\app\Typora\TyporaProject\images\image-20211027095702441.png)
+> > > ![image-20211027095702441](D:\TyporaProject\images\image-20211027095702441.png)
 > >
 > > ##### 9.2 async和await方法
 > >
-> > > ![image-20211027103210797](D:\app\Typora\TyporaProject\images\image-20211027103210797.png)
+> > > ![image-20211027103210797](D:\TyporaProject\images\image-20211027103210797.png)
 > >
 > > ##### 9.3 axios.get和axios.post
 > >
-> > > ![image-20211027104154124](D:\app\Typora\TyporaProject\images\image-20211027104154124.png)
+> > > ![image-20211027104154124](D:\TyporaProject\images\image-20211027104154124.png)
 
 > #### 10. vue-cli
 >
 > > ##### 10.1 单页面应用程序
 > >
-> > > ![image-20211027104326838](D:\app\Typora\TyporaProject\images\image-20211027104326838.png)
+> > > ![image-20211027104326838](D:\TyporaProject\images\image-20211027104326838.png)
 > >
 > > ##### 10.2
 > >
-> > > ![image-20211027143931269](D:\app\Typora\TyporaProject\images\image-20211027143931269.png)
+> > > ![image-20211027143931269](D:\TyporaProject\images\image-20211027143931269.png)
 > > >
-> > > ![image-20211027143958501](D:\app\Typora\TyporaProject\images\image-20211027143958501.png)
+> > > ![image-20211027143958501](D:\TyporaProject\images\image-20211027143958501.png)
 > > >
-> > > ![image-20211027144007308](D:\app\Typora\TyporaProject\images\image-20211027144007308.png)
+> > > ![image-20211027144007308](D:\TyporaProject\images\image-20211027144007308.png)
 >
 > #### 11. 组件
 >
 > > ##### 11.1 什么是组件化开发
 > >
-> > > ![image-20211027140552273](D:\app\Typora\TyporaProject\images\image-20211027140552273.png)
+> > > ![image-20211027140552273](D:\TyporaProject\images\image-20211027140552273.png)
 > >
 > > ##### 11.2vue的组件化开发
 > >
-> > > ![image-20211027140629118](D:\app\Typora\TyporaProject\images\image-20211027140629118.png)
+> > > ![image-20211027140629118](D:\TyporaProject\images\image-20211027140629118.png)
 > >
 > > ##### 11.3 组件的组成部分
 > >
-> > > ![image-20211027140800149](D:\app\Typora\TyporaProject\images\image-20211027140800149.png)
+> > > ![image-20211027140800149](D:\TyporaProject\images\image-20211027140800149.png)
 > >
 > > ##### 11.4 组件基础
 > >
-> > > ![image-20211027150749267](D:\app\Typora\TyporaProject\images\image-20211027150749267.png)
+> > > ![image-20211027150749267](D:\TyporaProject\images\image-20211027150749267.png)
 > > >
-> > > ![image-20211027152337226](D:\app\Typora\TyporaProject\images\image-20211027152337226.png)
+> > > ![image-20211027152337226](D:\TyporaProject\images\image-20211027152337226.png)
 > > >
-> > > ![image-20211027161110440](D:\app\Typora\TyporaProject\images\image-20211027161110440.png)
+> > > ![image-20211027161110440](D:\TyporaProject\images\image-20211027161110440.png)
 > > >
-> > > ![image-20211027162114039](D:\app\Typora\TyporaProject\images\image-20211027162114039.png)
+> > > ![image-20211027162114039](D:\TyporaProject\images\image-20211027162114039.png)
 > >
 > > ##### 11.5 props 组件传参
 > >
-> > > ![image-20211027165804528](D:\app\Typora\TyporaProject\images\image-20211027165804528.png)
+> > > ![image-20211027165804528](D:\TyporaProject\images\image-20211027165804528.png)
 > > >
-> > > ![image-20211027165647710](D:\app\Typora\TyporaProject\images\image-20211027165647710.png)
+> > > ![image-20211027165647710](D:\TyporaProject\images\image-20211027165647710.png)
 > > >
-> > > ![image-20211027170248678](D:\app\Typora\TyporaProject\images\image-20211027170248678.png)
+> > > ![image-20211027170248678](D:\TyporaProject\images\image-20211027170248678.png)
 > > >
-> > > ![image-20211027172845655](D:\app\Typora\TyporaProject\images\image-20211027172845655.png)
+> > > ![image-20211027172845655](D:\TyporaProject\images\image-20211027172845655.png)
 > > >
-> > > ![image-20211027173749101](D:\app\Typora\TyporaProject\images\image-20211027173749101.png)
+> > > ![image-20211027173749101](D:\TyporaProject\images\image-20211027173749101.png)
 
 > > ##### 11.6组件间样式冲突
 
-> > ![image-20211027174313118](D:\app\Typora\TyporaProject\images\image-20211027174313118.png)
+> > ![image-20211027174313118](D:\TyporaProject\images\image-20211027174313118.png)
 > >
 > > **解决：**
 > >
@@ -236,9 +236,9 @@
 > > <style scoped>//添加scoped属性
 > > ```
 > >
-> > ![image-20211027184649473](D:\app\Typora\TyporaProject\images\image-20211027184649473.png)
+> > ![image-20211027184649473](D:\TyporaProject\images\image-20211027184649473.png)
 > >
-> > ![image-20211027184730665](D:\app\Typora\TyporaProject\images\image-20211027184730665.png)
+> > ![image-20211027184730665](D:\TyporaProject\images\image-20211027184730665.png)
 > >
 > > ##### 11.7 组件实例
 > >
@@ -246,41 +246,41 @@
 > >
 > > ##### 11.8 组件的生命周期
 > >
-> > > ![image-20211028100333701](D:\app\Typora\TyporaProject\images\image-20211028100333701.png)
+> > > ![image-20211028100333701](D:\TyporaProject\images\image-20211028100333701.png)
 > > >
-> > > ![image-20211028101011659](D:\app\Typora\TyporaProject\images\image-20211028101011659.png)
+> > > ![image-20211028101011659](D:\TyporaProject\images\image-20211028101011659.png)
 > > >
-> > > ![image-20211028103025138](D:\app\Typora\TyporaProject\images\image-20211028103025138.png)
+> > > ![image-20211028103025138](D:\TyporaProject\images\image-20211028103025138.png)
 > > >
-> > > ![image-20211028105358447](D:\app\Typora\TyporaProject\images\image-20211028105358447.png)
+> > > ![image-20211028105358447](D:\TyporaProject\images\image-20211028105358447.png)
 > > >
-> > > ![image-20211028110218479](D:\app\Typora\TyporaProject\images\image-20211028110218479.png)
+> > > ![image-20211028110218479](D:\TyporaProject\images\image-20211028110218479.png)
 > > >
-> > > ![image-20211028113317911](D:\app\Typora\TyporaProject\images\image-20211028113317911.png)
+> > > ![image-20211028113317911](D:\TyporaProject\images\image-20211028113317911.png)
 > > >
-> > > ![image-20211028113414599](D:\app\Typora\TyporaProject\images\image-20211028113414599.png)
+> > > ![image-20211028113414599](D:\TyporaProject\images\image-20211028113414599.png)
 > > >
 > > > *11.8.1*  created 方法
 > > >
-> > > > ![image-20211028105155737](D:\app\Typora\TyporaProject\images\image-20211028105155737.png)
+> > > > ![image-20211028105155737](D:\TyporaProject\images\image-20211028105155737.png)
 > > >
 > > > *11.8.2*  mounted 方法
 > > >
-> > > > ![image-20211028110832064](D:\app\Typora\TyporaProject\images\image-20211028110832064.png)
+> > > > ![image-20211028110832064](D:\TyporaProject\images\image-20211028110832064.png)
 > > >
 > > > *11.8.3* updated 方法
 > > >
-> > > > ![image-20211028112239023](D:\app\Typora\TyporaProject\images\image-20211028112239023.png)
+> > > > ![image-20211028112239023](D:\TyporaProject\images\image-20211028112239023.png)
 > >
 > > ##### 11.9 组件间的数据共享
 > >
-> > > ![image-20211028133521027](D:\app\Typora\TyporaProject\images\image-20211028133521027.png)
+> > > ![image-20211028133521027](D:\TyporaProject\images\image-20211028133521027.png)
 > > >
-> > > ![image-20211028133643235](D:\app\Typora\TyporaProject\images\image-20211028133643235.png)
+> > > ![image-20211028133643235](D:\TyporaProject\images\image-20211028133643235.png)
 > > >
-> > > ![image-20211028154144458](D:\app\Typora\TyporaProject\images\image-20211028154144458.png)
+> > > ![image-20211028154144458](D:\TyporaProject\images\image-20211028154144458.png)
 > > >
-> > > ![image-20211028160525062](D:\app\Typora\TyporaProject\images\image-20211028160525062.png)
+> > > ![image-20211028160525062](D:\TyporaProject\images\image-20211028160525062.png)
 > >
 > > 
 
