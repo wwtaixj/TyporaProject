@@ -281,8 +281,32 @@
 > > > ![image-20211028154144458](.\images\image-20211028154144458.png)
 > > >
 > > > ![image-20211028160525062](.\images\image-20211028160525062.png)
+> > >
+> > > ![image-20211028175241704](D:\TyporaProject\images\image-20211028175241704.png)
+>
+> **总结：**
+>
+> > ![image-20211029091945220](D:\TyporaProject\images\image-20211029091945220.png)
 > >
-> > 
+> > ![image-20211029092211200](D:\TyporaProject\images\image-20211029092211200.png)
+> >
+> > ![image-20211029093240120](D:\TyporaProject\images\image-20211029093240120.png)
+> >
+> > ![image-20211029094201882](D:\TyporaProject\images\image-20211029094201882.png)
+> >
+> > ![image-20211029094659264](D:\TyporaProject\images\image-20211029094659264.png)
+>
+> > ![image-20211029104307727](D:\TyporaProject\images\image-20211029104307727.png)
+> >
+> > ![image-20211029110030405](D:\TyporaProject\images\image-20211029110030405.png)
+> >
+> > ![image-20211029111032036](D:\TyporaProject\images\image-20211029111032036.png)
+>
+> #### 12.ref 引用DOM
+>
+> > ![image-20211029113559300](D:\TyporaProject\images\image-20211029113559300.png)
+> >
+> > ![image-20211029113632876](D:\TyporaProject\images\image-20211029113632876.png)
 
 ## 动态组件&异步组件
 
