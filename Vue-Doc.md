@@ -282,55 +282,55 @@
 > > >
 > > > ![image-20211028160525062](.\images\image-20211028160525062.png)
 > > >
-> > > ![image-20211028175241704](D:\TyporaProject\images\image-20211028175241704.png)
+> > > ![image-20211028175241704](.\images\image-20211028175241704.png)
 >
 > **总结：**
 >
-> > ![image-20211029091945220](D:\TyporaProject\images\image-20211029091945220.png)
+> > ![image-20211029091945220](.\images\image-20211029091945220.png)
 > >
-> > ![image-20211029092211200](D:\TyporaProject\images\image-20211029092211200.png)
+> > ![image-20211029092211200](.\images\image-20211029092211200.png)
 > >
-> > ![image-20211029093240120](D:\TyporaProject\images\image-20211029093240120.png)
+> > ![image-20211029093240120](.\images\image-20211029093240120.png)
 > >
-> > ![image-20211029094201882](D:\TyporaProject\images\image-20211029094201882.png)
+> > ![image-20211029094201882](.\images\image-20211029094201882.png)
 > >
-> > ![image-20211029094659264](D:\TyporaProject\images\image-20211029094659264.png)
+> > ![image-20211029094659264](.\images\image-20211029094659264.png)
 >
-> > ![image-20211029104307727](D:\TyporaProject\images\image-20211029104307727.png)
+> > ![image-20211029104307727](.\images\image-20211029104307727.png)
 > >
-> > ![image-20211029110030405](D:\TyporaProject\images\image-20211029110030405.png)
+> > ![image-20211029110030405](.\images\image-20211029110030405.png)
 > >
-> > ![image-20211029111032036](D:\TyporaProject\images\image-20211029111032036.png)
+> > ![image-20211029111032036](.\images\image-20211029111032036.png)
 >
 > #### 12.ref 操作DOM
 >
-> > ![image-20211029113559300](D:\TyporaProject\images\image-20211029113559300.png)
+> > ![image-20211029113559300](.\images\image-20211029113559300.png)
 > >
-> > ![image-20211029113632876](D:\TyporaProject\images\image-20211029113632876.png)
+> > ![image-20211029113632876](.\images\image-20211029113632876.png)
 >
 > #### 13.this.$nextTick()方法
 >
-> > ![image-20211029143315036](D:\TyporaProject\images\image-20211029143315036.png)
+> > ![image-20211029143315036](.\images\image-20211029143315036.png)
 >
 > #### 14. 数组中的方法
 >
 > > ##### 14.1 数组中查找元素->.some()方法
 > >
-> >  ![image-20211029144821907](D:\TyporaProject\images\image-20211029144821907.png)
+> >  ![image-20211029144821907](.\images\image-20211029144821907.png)
 > >
 > > ##### 14.2 数组中查询所有元素是否符合条件->.every()方法
 > >
-> > ![image-20211029151744791](D:\TyporaProject\images\image-20211029151744791.png)
+> > ![image-20211029151744791](.\images\image-20211029151744791.png)
 > >
 > > ##### 14.3 数组中累加元素->.reduce()方法
 > >
-> > **一般实现：**![image-20211029153310435](D:\TyporaProject\images\image-20211029153310435.png)
+> > **一般实现：**![image-20211029153310435](.\images\image-20211029153310435.png)
 > >
 > > **reduce方法实现：**
 > >
-> > ![image-20211029155210601](D:\TyporaProject\images\image-20211029155210601.png)
+> > ![image-20211029155210601](.\images\image-20211029155210601.png)
 > >
-> > ![image-20211029155236674](D:\TyporaProject\images\image-20211029155236674.png)
+> > ![image-20211029155236674](.\images\image-20211029155236674.png)
 
 ## 动态组件&异步组件
 
