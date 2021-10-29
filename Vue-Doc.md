@@ -302,7 +302,7 @@
 > >
 > > ![image-20211029111032036](D:\TyporaProject\images\image-20211029111032036.png)
 >
-> #### 12.ref 引用DOM
+> #### 12.ref 操作DOM
 >
 > > ![image-20211029113559300](D:\TyporaProject\images\image-20211029113559300.png)
 > >
