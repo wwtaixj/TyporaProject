@@ -307,6 +307,30 @@
 > > ![image-20211029113559300](D:\TyporaProject\images\image-20211029113559300.png)
 > >
 > > ![image-20211029113632876](D:\TyporaProject\images\image-20211029113632876.png)
+>
+> #### 13.this.$nextTick()方法
+>
+> > ![image-20211029143315036](D:\TyporaProject\images\image-20211029143315036.png)
+>
+> #### 14. 数组中的方法
+>
+> > ##### 14.1 数组中查找元素->.some()方法
+> >
+> >  ![image-20211029144821907](D:\TyporaProject\images\image-20211029144821907.png)
+> >
+> > ##### 14.2 数组中查询所有元素是否符合条件->.every()方法
+> >
+> > ![image-20211029151744791](D:\TyporaProject\images\image-20211029151744791.png)
+> >
+> > ##### 14.3 数组中累加元素->.reduce()方法
+> >
+> > **一般实现：**![image-20211029153310435](D:\TyporaProject\images\image-20211029153310435.png)
+> >
+> > **reduce方法实现：**
+> >
+> > ![image-20211029155210601](D:\TyporaProject\images\image-20211029155210601.png)
+> >
+> > ![image-20211029155236674](D:\TyporaProject\images\image-20211029155236674.png)
 
 ## 动态组件&异步组件
 
