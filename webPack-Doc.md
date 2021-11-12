@@ -129,7 +129,7 @@ module.exports = {
 >
 >    ② 在webpack.config.js 的 module -> rules 数组中，添加loader规则如下：
 >
->    > ![image-20211021162150085](D:\app\Typora\TyporaProject\images\image-20211021162150085.png)
+>    > ![image-20211021162150085](D:\TyporaProject\images\image-20211021162150085.png)
 >    >
 >    > 其中 ？之后的是loader的选项：
 
@@ -142,11 +142,11 @@ module.exports = {
 > >
 > >    ②在webpack.config.js的module ->rules s数组中，添加loader规则：
 > >
-> >    > ![image-20211021180204804](D:\app\Typora\TyporaProject\images\image-20211021180204804.png)
+> >    > ![image-20211021180204804](D:\TyporaProject\images\image-20211021180204804.png)
 > >
 > >    ③创建babel.config.js文件，到官网查找相关配置，如：
 > >
-> >    > ![image-20211021180537949](D:\app\Typora\TyporaProject\images\image-20211021180537949.png)
+> >    > ![image-20211021180537949](D:\TyporaProject\images\image-20211021180537949.png)
 > >
 > >    ④npm run dev
 
@@ -154,11 +154,11 @@ module.exports = {
 
 1. 打包
 
-> ![image-20211021190625149](D:\app\Typora\TyporaProject\images\image-20211021190625149.png)
+> ![image-20211021190625149](D:\TyporaProject\images\image-20211021190625149.png)
 
 2. 自动清理dist目录下的旧文件（clean-webpack-plugin）
 
-   ![image-20211021193247540](D:\app\Typora\TyporaProject\images\image-20211021193247540.png)
+   ![image-20211021193247540](D:\TyporaProject\images\image-20211021193247540.png)
 
    
 
@@ -166,29 +166,29 @@ module.exports = {
 
 1. 什么是source Map？
 
-   > ![image-20211022092159223](D:\app\Typora\TyporaProject\images\image-20211022092159223.png)
+   > ![image-20211022092159223](D:\TyporaProject\images\image-20211022092159223.png)
 
 2. Source Map的问题
 
-   > ![image-20211022092734250](D:\app\Typora\TyporaProject\images\image-20211022092734250.png)
+   > ![image-20211022092734250](D:\TyporaProject\images\image-20211022092734250.png)
 
 3. 解决source Map运行报错行和源代码行数不一样的问题
 
-   > ![image-20211022092857913](D:\app\Typora\TyporaProject\images\image-20211022092857913.png)
+   > ![image-20211022092857913](D:\TyporaProject\images\image-20211022092857913.png)
 
 4. webpack 生产环境下的Source Map
 
-   > ![image-20211022094007336](D:\app\Typora\TyporaProject\images\image-20211022094007336.png)
+   > ![image-20211022094007336](D:\TyporaProject\images\image-20211022094007336.png)
 
 5. 只定位行数不暴露源码(**推荐**)
 
-   > ![image-20211022094317847](D:\app\Typora\TyporaProject\images\image-20211022094317847.png)
+   > ![image-20211022094317847](D:\TyporaProject\images\image-20211022094317847.png)
 
 5. 定位行数且暴露源码（<font color=red>**慎用**</font >）
 
-   > ![image-20211022100336079](D:\app\Typora\TyporaProject\images\image-20211022100336079.png)
+   > ![image-20211022100336079](D:\TyporaProject\images\image-20211022100336079.png)
 
 6. @ 符号通过webpack配置代表 ’./src‘ 路径
 
-   > ![image-20211022102744326](D:\app\Typora\TyporaProject\images\image-20211022102744326.png)
+   > ![image-20211022102744326](D:\TyporaProject\images\image-20211022102744326.png)
 

@@ -336,6 +336,9 @@
 
 ### 动态组件
 
+- ![image-20211112164716271](D:\TyporaProject\images\image-20211112164716271.png)
+- ![image-20211112164745936](D:\TyporaProject\images\image-20211112164745936.png)
+
 - ```javascript
   //缓存失活的组件，使它保持某一状态
   <keep-alive>组件</keep-alive>
@@ -396,3 +399,4 @@ this.$parent.
 
 ```
 
+ 
