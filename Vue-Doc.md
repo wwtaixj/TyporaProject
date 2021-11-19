@@ -337,12 +337,20 @@
 ### 动态组件
 
 - ![image-20211112164716271](D:\TyporaProject\images\image-20211112164716271.png)
+
 - ![image-20211112164745936](D:\TyporaProject\images\image-20211112164745936.png)
 
+- ![image-20211112165559810](D:\TyporaProject\images\image-20211112165559810.png)
+
 - ```javascript
-  //缓存失活的组件，使它保持某一状态
+  // 使用is属性切换组件会导致组件经历销毁和创建生命周期，不能保持切换前的状态。缓存失活的组件，使它保持某一状态
   <keep-alive>组件</keep-alive>
   ```
+
+- ![image-20211112171958115](D:\TyporaProject\images\image-20211112171958115.png)
+- ![image-20211112171933333](D:\TyporaProject\images\image-20211112171933333.png)
+- ![image-20211112172318253](D:\TyporaProject\images\image-20211112172318253.png)
+- ![image-20211112172827269](D:\TyporaProject\images\image-20211112172827269.png)
 
 ### 异步组件
 
