@@ -71,3 +71,149 @@
 
 1. 箭头函数完全修复了`this`的指向，`this`总是指向词法作用域，也就是外层调用者。
 2. 箭头函数不会创建自己的`this,它只会从自己的作用域链的上一层继承this`
+
+**Date对象：**
+
+1. JavaScript的Date对象月份值从0开始，牢记0=1月，1=2月，2=3月，……，11=12月。
+2. 使用Date.parse()时传入的字符串使用实际月份01~12，转换为Date对象后getMonth()获取的月份值为0~11。
+
+**对象的注意项：**
+
+1. 
+
+2. ```javascript
+   function Student(name) {
+       this.name = name;
+       this.hello = function () {
+           alert('Hello, ' + this.name + '!');
+       }
+   }
+   var xiaoming = new Student('小明');
+   xiaoming.name; // '小明'
+   xiaoming.hello(); // Hello,小明!
+   xiaoming.constructor === Student.prototype.constructor; // true
+   Student.prototype.constructor === Student; // true
+   
+   Object.getPrototypeOf(xiaoming) === Student.prototype; // true
+   
+   xiaoming instanceof Student; // true
+   ```
+
+**原型链继承：**
+
+1. 
+
+2. ```javascript
+   function Student (props) {
+       this.name = props || '小米'
+       this.school = '北大附小！'
+   }
+   Student.prototype.hello = function () {
+       alert("Hello" + this.name + '!')
+   }
+   // PrimaryStudent构造函数:
+   function PrimaryStudent(props) {
+       Student.call(this, props);
+       this.grade = props.grade || 1;
+   }
+   
+   // 空函数F:
+   function F() {
+   }
+   
+   // 把F的原型指向Student.prototype:
+   F.prototype = Student.prototype;
+   
+   // 把PrimaryStudent的原型指向一个新的F对象，F对象的原型正好指向Student.prototype:
+   PrimaryStudent.prototype = new F();
+   //PrimaryStudent.prototype = new Student();
+   // 把PrimaryStudent原型的构造函数修复为PrimaryStudent:
+   PrimaryStudent.prototype.constructor = PrimaryStudent;
+   
+   // 继续在PrimaryStudent原型（就是new F()对象）上定义方法：
+   PrimaryStudent.prototype.getGrade = function () {
+       return this.grade;
+   };
+   
+   // 创建xiaoming:
+   var xiaoming = new PrimaryStudent({
+       name: '小明',
+       grade: 2
+   });
+   console.log(xiaoming.name.name); // '小明'
+   console.log(xiaoming.grade); // 2
+   console.log(xiaoming.school); // 2
+   
+   // 验证原型:
+   console.log(xiaoming.__proto__ === PrimaryStudent.prototype); // true
+   console.log(xiaoming.__proto__.__proto__ === Student.prototype); // true
+   
+   // 验证继承关系:
+   console.log(xiaoming instanceof PrimaryStudent); // true
+   console.log(xiaoming instanceof Student); // true
+   ```
+
+3. 实现函数继承有四种方法：
+
+     1、创建空函数作架桥函数，原理如上代码所示，将其封装成inherits函数
+
+     2、利用create方法， child.prototype=Object.create(parents.prototype)
+
+     3、利用_proto_属性， child.prototype._proto_=parents.prototype
+
+     4、利用setPrototypeOf方法， child.prototype=Object.setPrototypeOf(parents.prototype)
+
+     总结：原型继承的目的是子函数的原型继承父函数的原型，子函数的实例既可以调用子函数原型中的属性，也可以调用父函数原型中的属性； 4种方法本质上都是用父函数的原型创造出子函数的原型，第一个种方法创建架桥函数是为了防止继承父函数实例的属性，这样就违背了原型继承的目的； 2、3、4方法本质上一样，利用JS提供的属性方法直接建立子父函数的继承关系。
+
+**navigator:**
+
+1. navigator.appName：浏览器名称；
+2. navigator.appVersion：浏览器版本；
+3. navigator.language：浏览器设置的语言；
+4. navigator.platform：操作系统类型；
+5. navigator.userAgent：浏览器设定的`User-Agent`字符串。
+
+**screen:**
+
+1. screen.width：屏幕宽度，以像素为单位；
+2. screen.height：屏幕高度，以像素为单位；
+3. screen.colorDepth：返回颜色位数，如8、16、24。
+
+**location:**
+
+1. 可以用`location.href`获取。要获得URL各个部分的值，可以这么写：
+
+   ```javascript
+   location.protocol; // 'http'
+   location.host; // 'www.example.com'
+   location.port; // '8080'
+   location.pathname; // '/path/index.html'
+   location.search; // '?a=1&b=2'
+   location.hash; // 'TOP'
+   ```
+
+**document:**
+
+1. `document`对象表示当前页面。由于HTML在浏览器中以DOM形式表示为树形结构，`document`对象就是整个DOM树的根节点。
+
+   `document`的`title`属性是从HTML文档中的`<title>xxx</title>`读取的，但是可以动态改变：
+
+   ```javascript
+   document.title = '努力学习JavaScript!';
+   ```
+
+2. `document`对象还有一个`cookie`属性，可以获取当前页面的Cookie。
+
+   Cookie是由服务器发送的key-value标示符。因为HTTP协议是无状态的，但是服务器要区分到底是哪个用户发过来的请求，就可以用Cookie来区分。当一个用户成功登录后，服务器发送一个Cookie给浏览器，例如`user=ABC123XYZ(加密的字符串)...`，此后，浏览器访问该网站时，会在请求头附上这个Cookie，服务器根据Cookie即可区分出用户。
+
+   Cookie还可以存储网站的一些设置，例如，页面显示的语言等等。
+
+   JavaScript可以通过`document.cookie`读取到当前页面的Cookie：
+
+   ```javascript
+   document.cookie; // 'v=123; remember=true; prefer=zh'
+   ```
+
+**history:**
+
+1. 

@@ -407,4 +407,19 @@ this.$parent.
 
 ```
 
- 
+ **插槽：**
+
+1. ![image-20211119154552742](D:\TyporaProject\images\image-20211119154552742.png)
+
+2. ![image-20211119155827556](D:\TyporaProject\images\image-20211119155827556.png)
+
+3. ![image-20211119160347460](D:\TyporaProject\images\image-20211119160347460.png)
+
+4. **作用域插槽：**
+
+   ![image-20211119165803098](D:\TyporaProject\images\image-20211119165803098.png)
+
+**自定义指令：**
+
+1. ![image-20211119190605538](D:\TyporaProject\images\image-20211119190605538.png)
+2. ![image-20211119190637651](D:\TyporaProject\images\image-20211119190637651.png)
