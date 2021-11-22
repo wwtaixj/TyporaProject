@@ -423,3 +423,58 @@ this.$parent.
 
 1. ![image-20211119190605538](D:\TyporaProject\images\image-20211119190605538.png)
 2. ![image-20211119190637651](D:\TyporaProject\images\image-20211119190637651.png)
+3. **bind：**![image-20211122095458499](D:\TyporaProject\images\image-20211122095458499.png) 注意：只会在指令绑定后时调用一次
+4. **update：**![image-20211122103533244](D:\TyporaProject\images\image-20211122103533244.png)注意：在DOM更新后触发
+5. **函数简写方式：**![image-20211122105931485](D:\TyporaProject\images\image-20211122105931485.png)
+6. **全局自定义指令：**![image-20211122111007330](D:\TyporaProject\images\image-20211122111007330.png)
+
+**axios挂载到vue和全局配置axios请求根路径:**
+
+![image-20211122150703913](D:\TyporaProject\images\image-20211122150703913.png)
+
+![image-20211122151628363](D:\TyporaProject\images\image-20211122151628363.png)
+
+**前端路由：**
+
+- **锚链接：**
+
+- ![image-20211122153355522](D:\TyporaProject\images\image-20211122153355522.png)
+
+- 路由工作方式：![image-20211122154734316](D:\TyporaProject\images\image-20211122154734316.png)
+
+- 创建路由文件和导入路由：
+
+  ![image-20211122163041947](D:\TyporaProject\images\image-20211122163041947.png)
+
+![image-20211122164536664](D:\TyporaProject\images\image-20211122164536664.png)
+
+- 路由重定向![image-20211122170510426](D:\TyporaProject\images\image-20211122170510426.png)
+- 嵌套路由：![image-20211122171133064](D:\TyporaProject\images\image-20211122171133064.png)
+- ![image-20211122171657567](D:\TyporaProject\images\image-20211122171657567.png)
+
+- 动态路由：![image-20211122173331951](D:\TyporaProject\images\image-20211122173331951.png)
+
+​	获取路由参数：
+
+1. ![image-20211122174825870](D:\TyporaProject\images\image-20211122174825870.png)
+2. ![image-20211122175031053](D:\TyporaProject\images\image-20211122175031053.png)
+
+注意：在hash地址中'/'后面的参数时路径参数，'?'后面是查询参数。
+
+- 导航
+
+  ![image-20211122190557795](D:\TyporaProject\images\image-20211122190557795.png)
+
+  ![image-20211122192213538](D:\TyporaProject\images\image-20211122192213538.png)
+
+  ![image-20211122192257707](D:\TyporaProject\images\image-20211122192257707.png)
+
+​		$router.go的简洁方法：
+
+​				![image-20211122192826538](D:\TyporaProject\images\image-20211122192826538.png)
+
+导航守卫：![image-20211122193203578](D:\TyporaProject\images\image-20211122193203578.png)
+
+1. 全局前置导航守卫：![image-20211122193504305](D:\TyporaProject\images\image-20211122193504305.png)
+
+   ​									![image-20211122193706640](D:\TyporaProject\images\image-20211122193706640.png)
