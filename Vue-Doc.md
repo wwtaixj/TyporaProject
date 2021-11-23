@@ -336,21 +336,21 @@
 
 ### 动态组件
 
-- ![image-20211112164716271](D:\TyporaProject\images\image-20211112164716271.png)
+- ![image-20211112164716271](.\images\image-20211112164716271.png)
 
-- ![image-20211112164745936](D:\TyporaProject\images\image-20211112164745936.png)
+- ![image-20211112164745936](.\images\image-20211112164745936.png)
 
-- ![image-20211112165559810](D:\TyporaProject\images\image-20211112165559810.png)
+- ![image-20211112165559810](.\images\image-20211112165559810.png)
 
 - ```javascript
   // 使用is属性切换组件会导致组件经历销毁和创建生命周期，不能保持切换前的状态。缓存失活的组件，使它保持某一状态
   <keep-alive>组件</keep-alive>
   ```
 
-- ![image-20211112171958115](D:\TyporaProject\images\image-20211112171958115.png)
-- ![image-20211112171933333](D:\TyporaProject\images\image-20211112171933333.png)
-- ![image-20211112172318253](D:\TyporaProject\images\image-20211112172318253.png)
-- ![image-20211112172827269](D:\TyporaProject\images\image-20211112172827269.png)
+- ![image-20211112171958115](.\images\image-20211112171958115.png)
+- ![image-20211112171933333](.\images\image-20211112171933333.png)
+- ![image-20211112172318253](.\images\image-20211112172318253.png)
+- ![image-20211112172827269](.\images\image-20211112172827269.png)
 
 ### 异步组件
 
@@ -409,72 +409,72 @@ this.$parent.
 
  **插槽：**
 
-1. ![image-20211119154552742](D:\TyporaProject\images\image-20211119154552742.png)
+1. ![image-20211119154552742](.\images\image-20211119154552742.png)
 
-2. ![image-20211119155827556](D:\TyporaProject\images\image-20211119155827556.png)
+2. ![image-20211119155827556](.\images\image-20211119155827556.png)
 
-3. ![image-20211119160347460](D:\TyporaProject\images\image-20211119160347460.png)
+3. ![image-20211119160347460](.\images\image-20211119160347460.png)
 
 4. **作用域插槽：**
 
-   ![image-20211119165803098](D:\TyporaProject\images\image-20211119165803098.png)
+   ![image-20211119165803098](.\images\image-20211119165803098.png)
 
 **自定义指令：**
 
-1. ![image-20211119190605538](D:\TyporaProject\images\image-20211119190605538.png)
-2. ![image-20211119190637651](D:\TyporaProject\images\image-20211119190637651.png)
-3. **bind：**![image-20211122095458499](D:\TyporaProject\images\image-20211122095458499.png) 注意：只会在指令绑定后时调用一次
-4. **update：**![image-20211122103533244](D:\TyporaProject\images\image-20211122103533244.png)注意：在DOM更新后触发
-5. **函数简写方式：**![image-20211122105931485](D:\TyporaProject\images\image-20211122105931485.png)
-6. **全局自定义指令：**![image-20211122111007330](D:\TyporaProject\images\image-20211122111007330.png)
+1. ![image-20211119190605538](.\images\image-20211119190605538.png)
+2. ![image-20211119190637651](.\images\image-20211119190637651.png)
+3. **bind：**![image-20211122095458499](.\images\image-20211122095458499.png) 注意：只会在指令绑定后时调用一次
+4. **update：**![image-20211122103533244](.\images\image-20211122103533244.png)注意：在DOM更新后触发
+5. **函数简写方式：**![image-20211122105931485](.\images\image-20211122105931485.png)
+6. **全局自定义指令：**![image-20211122111007330](.\images\image-20211122111007330.png)
 
 **axios挂载到vue和全局配置axios请求根路径:**
 
-![image-20211122150703913](D:\TyporaProject\images\image-20211122150703913.png)
+![image-20211122150703913](.\images\image-20211122150703913.png)
 
-![image-20211122151628363](D:\TyporaProject\images\image-20211122151628363.png)
+![image-20211122151628363](.\images\image-20211122151628363.png)
 
 **前端路由：**
 
 - **锚链接：**
 
-- ![image-20211122153355522](D:\TyporaProject\images\image-20211122153355522.png)
+- ![image-20211122153355522](.\images\image-20211122153355522.png)
 
-- 路由工作方式：![image-20211122154734316](D:\TyporaProject\images\image-20211122154734316.png)
+- 路由工作方式：![image-20211122154734316](.\images\image-20211122154734316.png)
 
 - 创建路由文件和导入路由：
 
-  ![image-20211122163041947](D:\TyporaProject\images\image-20211122163041947.png)
+  ![image-20211122163041947](.\images\image-20211122163041947.png)
 
-![image-20211122164536664](D:\TyporaProject\images\image-20211122164536664.png)
+![image-20211122164536664](.\images\image-20211122164536664.png)
 
-- 路由重定向![image-20211122170510426](D:\TyporaProject\images\image-20211122170510426.png)
-- 嵌套路由：![image-20211122171133064](D:\TyporaProject\images\image-20211122171133064.png)
-- ![image-20211122171657567](D:\TyporaProject\images\image-20211122171657567.png)
+- 路由重定向![image-20211122170510426](.\images\image-20211122170510426.png)
+- 嵌套路由：![image-20211122171133064](.\images\image-20211122171133064.png)
+- ![image-20211122171657567](.\images\image-20211122171657567.png)
 
-- 动态路由：![image-20211122173331951](D:\TyporaProject\images\image-20211122173331951.png)
+- 动态路由：![image-20211122173331951](.\images\image-20211122173331951.png)
 
 ​	获取路由参数：
 
-1. ![image-20211122174825870](D:\TyporaProject\images\image-20211122174825870.png)
-2. ![image-20211122175031053](D:\TyporaProject\images\image-20211122175031053.png)
+1. 方式一：![image-20211122174825870](.\images\image-20211122174825870.png)
+2. 方式二：![image-20211122175031053](.\images\image-20211122175031053.png)
 
 注意：在hash地址中'/'后面的参数时路径参数，'?'后面是查询参数。
 
 - 导航
 
-  ![image-20211122190557795](D:\TyporaProject\images\image-20211122190557795.png)
+  ![image-20211122190557795](.\images\image-20211122190557795.png)
 
-  ![image-20211122192213538](D:\TyporaProject\images\image-20211122192213538.png)
+  ![image-20211122192213538](.\images\image-20211122192213538.png)
 
-  ![image-20211122192257707](D:\TyporaProject\images\image-20211122192257707.png)
+  ![image-20211122192257707](.\images\image-20211122192257707.png)
 
 ​		$router.go的简洁方法：
 
-​				![image-20211122192826538](D:\TyporaProject\images\image-20211122192826538.png)
+​				![image-20211122192826538](.\images\image-20211122192826538.png)
 
-导航守卫：![image-20211122193203578](D:\TyporaProject\images\image-20211122193203578.png)
+导航守卫：![image-20211122193203578](.\images\image-20211122193203578.png)
 
-1. 全局前置导航守卫：![image-20211122193504305](D:\TyporaProject\images\image-20211122193504305.png)
+1. 全局前置导航守卫：![image-20211122193504305](.\images\image-20211122193504305.png)
 
-   ​									![image-20211122193706640](D:\TyporaProject\images\image-20211122193706640.png)
+   ​									![image-20211122193706640](.\images\image-20211122193706640.png)
